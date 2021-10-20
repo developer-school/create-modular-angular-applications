@@ -1,0 +1,33 @@
+article {
+  height: 100%;
+  width: 200px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  color: white;
+  background-color: #c44079;
+  border: none;
+  margin: 0 0.2rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  article {
+    width: 100%;
+  }
+}

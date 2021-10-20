@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let item of inventory | async; trackBy: trackItem">
+    <app-item-card [item]="item"></app-item-card>
+  </li>
+</ul>

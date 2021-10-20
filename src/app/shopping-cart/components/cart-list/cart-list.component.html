@@ -1,0 +1,14 @@
+<article>
+  <header>
+    <h2>Cart</h2>
+  </header>
+  <section>
+    <ul *ngIf="cartList">
+      <li *ngFor="let item of cartList | async; trackBy: trackItem">
+        <app-cart-item [item]="item"></app-cart-item>
+      </li>
+    </ul>
+  </section>
+
+  <app-cart-total [items]="cartList.getValue()"></app-cart-total>
+</article>

@@ -1,0 +1,22 @@
+<article>
+  <header>
+    <img src="{{ item.imageUrl }}" alt="{{ item.name }}" />
+  </header>
+  <div class="content">
+    <div class="name-and-quantity">
+      <h3>{{ item.name }}</h3>
+      <span>{{ item.quantity }} left</span>
+    </div>
+    <span>{{ item.price | currency: "GBP":"symbol":"1.2-4" }}</span>
+  </div>
+
+  <footer>
+    <button
+      [ngClass]="item.quantity > 0 ? 'add-to-cart' : 'add-to-cart-disabled'"
+      [disabled]="item.quantity === 0"
+      (click)="addToCart(item)"
+    >
+      Add to cart
+    </button>
+  </footer>
+</article>

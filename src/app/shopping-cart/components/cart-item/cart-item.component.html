@@ -1,0 +1,12 @@
+<article>
+  <header>
+    <p>{{ item.name }}</p>
+    <p>{{ totalPrice | currency: "GBP":"symbol":"1.2-4" }}</p>
+  </header>
+
+  <footer>
+    <button (click)="increment()">+</button>
+    <span>{{ item.quantity }}</span>
+    <button (click)="decrement()">-</button>
+  </footer>
+</article>

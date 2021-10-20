@@ -1,0 +1,41 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2550&q=80",
+      "name": "Apple",
+      "price": 2,
+      "quantity": 33
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "name": "Banana",
+      "price": 1.5,
+      "quantity": 43
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1603664454146-50b9bb1e7afa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+      "name": "Orange",
+      "price": 3,
+      "quantity": 196
+    }
+  ],
+  "cart": [
+    {
+      "id": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1587132137056-bfbf0166836e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
+      "name": "Banana",
+      "price": 1.5,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1603664454146-50b9bb1e7afa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80",
+      "name": "Orange",
+      "price": 3,
+      "quantity": 1
+    }
+  ]
+}

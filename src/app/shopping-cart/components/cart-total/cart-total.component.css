@@ -1,0 +1,18 @@
+div {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+button {
+  background-color: #e3e3e3;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d3d3d3;
+}

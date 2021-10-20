@@ -1,0 +1,20 @@
+article {
+  display: flex;
+  background-color: white;
+  height: 100%;
+  min-width: 200px;
+  width: 100%;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 1rem;
+  text-decoration: underline;
+}
+
+li {
+  padding: 1.4rem 1rem;
+}
